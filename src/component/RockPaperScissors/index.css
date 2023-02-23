@@ -1,0 +1,200 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #223a5f;
+}
+
+.result-container {
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+  padding: 25px;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  .result-container {
+    width: 90%;
+  }
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.option {
+  font-size: 26px;
+  font-family: 'Bree Serif';
+  font-weight: 450;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .option {
+    font-size: 25px;
+  }
+}
+
+.score-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  width: 150px;
+  height: 120px;
+}
+
+@media screen and (max-width: 767px) {
+  .score-card {
+    width: 120px;
+  }
+}
+
+.score-text {
+  font-size: 22px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  color: #223a5f;
+  margin-bottom: 0px;
+}
+
+.score {
+  font-size: 37px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #223a5f;
+  margin-top: 0px;
+}
+
+.game-view-container {
+  width: 65%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+}
+
+@media screen and (max-width: 767px) {
+  .game-view-container {
+    width: 90%;
+  }
+}
+
+.list-container {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 450px;
+}
+
+.popup-container {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+.trigger-button {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  padding: 8px 16px 8px 16px;
+  margin: 8px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.close-btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.popUp-image {
+  width: 90%;
+  align-self: center;
+  margin-top: 25px;
+}
+
+.game-result-container {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  justify-content: space-around;
+}
+
+.selected-option-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.user-choice-image {
+  width: 170px;
+  height: 170px;
+}
+
+.result-text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.play-again-button {
+  padding: 8px 18px 8px 18px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #223a5f;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  border-radius: 8px;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

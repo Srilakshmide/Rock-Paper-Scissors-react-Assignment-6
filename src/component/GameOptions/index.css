@@ -1,0 +1,22 @@
+.list-options {
+  display: felx;
+}
+
+.option-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.option-image {
+  width: 180px;
+  height: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  .option-image {
+    width: 160px;
+    height: 160px;
+  }
+}
